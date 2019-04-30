@@ -1,0 +1,152 @@
+html {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./download.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: arial;
+}
+
+#col1{
+    background-color: #198EB8;
+    align-content: center;
+    padding: 5vh;
+    min-width: 300px;
+}   
+
+#col2{
+    background-color: white;
+    align-content: center;
+}
+
+#container{
+    padding:5vh;
+}
+
+.el{
+    width: 14.2857%;
+    height: 14.2857%;
+    border-radius: 50%;
+    transition: background 0.5s ease;
+}
+.el:hover{
+    background-color: #4CB0D0;
+    color: white;
+    width: 70;
+    transition: background 0.5s ease;
+}
+
+#inside_table{
+    height:50vh;
+    width: 25vw;
+    text-align: center;
+    font-weight: 700;
+}
+
+#prev_date{
+    color: dimgray;
+}
+
+.today{
+    background-color: #198EB8;
+    color: white;
+    border-radius: 50%;
+    box-shadow: 3px 3px black;
+}
+
+.today-noshdw{
+    background-color: #198EB8;
+    color: white;
+    border-radius: 50%;
+}
+
+.activee{
+    background-color: dimgrey;
+    color: white;
+    border-radius: 50%;
+    box-shadow: 3px 3px black;
+}
+
+#day{
+    color: white;
+    font-size: 40px;
+    font-family: arial;
+}
+
+#date{
+    color: white;
+    font-size: 80px;
+    font-family: arial;
+    padding: 0px;
+    margin-bottom: -10px;
+}
+
+#mo-yr{
+    color: white;
+    font-family: arial;
+    padding: 0px;
+}
+
+select{
+    width: 150px;
+    text-align-last: center;
+    color: white;
+    background-color: #198EB8;
+    border: 0px;
+    transition: background 0.5s ease;
+    font-size: 20px;
+}
+
+select:focus,select:hover{
+    background-color: steelblue;
+    transition: background 0.5s ease;
+    border-radius: 50vh;
+}
+
+input{
+    width: 150px;
+    border: 0px;
+    background-color: #198EB8;
+    font-size: 20px;
+    color: white;
+    transition: background 0.5s ease;
+    text-align: center;
+}
+
+input:focus,input:hover{
+    background-color: steelblue;
+    transition: background 0.5s ease;
+    border-radius: 50vh;
+}
+
+.disp{
+    min-width:  100px;
+}
+
+.icons{
+    border-radius: 50%;
+    transition: background 0.5s ease;
+}
+
+img{
+    filter: invert(1);
+}
+
+img:hover{
+    filter:invert(0);
+}
+
+.icons:hover{
+    background-color: white;
+    border-radius: 50%;
+    transition: background 0.5s ease;
+}
+
+#main_tble{
+    box-shadow: 15px -15px rgba(68, 68, 68, 0.2);
+    border-collapse: collapse;
+     margin: auto;
+     width: 100px;
+    margin-bottom: 19vh;
+    margin-top: 20vh;
+}

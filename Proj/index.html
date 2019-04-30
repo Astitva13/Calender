@@ -1,0 +1,44 @@
+<html>
+<head>
+    <script src = "index.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+    <table id ="main_tble">
+    <tr>
+        <td id ="col1">
+            <div id="day"></div>
+            <table>
+            <tr>
+                <td class="disp">
+                    <div id="date"></div>
+                    <div id="mo-yr"></div>
+                </td>
+                <td style="padding-left: 40px;"  class="disp">
+                    <table><tr>
+                    <td onclick="decrmo()" class="icons"><img src="avb6b6c2625bcda563bf1.png" width="40px" height="40px"></td>
+                    <td><select id="mo-sel" onchange="change_mo()">
+                        </select></td>
+                    <td onclick="incrmo()" class="icons"><img src="avefdb1ad8fbf8d8b72a2.png" width="40px" height="40px"></td>
+                        </tr>
+                        <tr>
+                        <td onclick="decryr()" class="icons"><img src="avb6b6c2625bcda563bf1.png" width="40px" height="40px"></td>
+                    <td>
+                        <input id="yr-sel" value = "Enter Year" onclick = "empty_yr()" onchange="change_yr()"></td>
+                            <td onclick="incryr()" class="icons"><img src="avefdb1ad8fbf8d8b72a2.png" width="40px" height="40px"></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            </table>
+        </td>
+        <td id="col2">
+            <div id="container">
+                <div id="mo-yr"></div>
+                <div id="tbl"></div>
+            </div>
+        </td>
+    </tr>
+    </table>
+</body>
+</html>
